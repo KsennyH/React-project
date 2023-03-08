@@ -1,0 +1,16 @@
+.stars {
+    display: flex;
+    align-items: end;
+}
+
+.stars__icon {
+    margin-right: 0.3125rem;
+}
+
+.stars__icon path {
+    fill: var(--gray);
+}
+
+.stars__icon.active path {
+    fill: var(--yellow);
+}

@@ -1,0 +1,13 @@
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.rating__feedback {
+    color: var(--gray);
+    transition: color .5s ease;
+}
+
+.rating__feedback:hover {
+    color: #000;
+}
