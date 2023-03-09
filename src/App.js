@@ -16,7 +16,7 @@ function App() {
           {cards.map((el) => {
             return (
               <li className='products__item'>
-                <Card title={el.title} img={el.img} reserve={el.reserve} price={el.price} />
+                <Card title={el.title} img={el.img} reserve={el.reserve} price={el.price} feedback={el.feedback} />
               </li>
             )
           })}

@@ -1,11 +1,11 @@
 import StarsRating from '../stars/StarsRating';
 import './Rating.css';
 
-const Rating = () => {
+const Rating = (props) => {
     return (
         <div className='rating'>
             <StarsRating />
-            <a className='rating__feedback'>(3)</a>
+            <a className='rating__feedback'>{props.feedback}</a>
         </div>
     )
 } 

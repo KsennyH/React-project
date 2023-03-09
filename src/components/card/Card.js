@@ -14,7 +14,7 @@ const Card = (props) => {
                     <h3 className='card__title'>{props.title}</h3>
                 </a>
                 <div className='card__info'>
-                    <Rating />
+                    <Rating feedback={props.feedback} />
                     <p className='card__reserve'>{props.reserve}</p>
                 </div>
             </div>
