@@ -1,26 +1,25 @@
 import './Card.css';
 import image from './../../img/1.jpg';
 import Btn from './button/btn';
-import StarsRating from './stars/StarsRating';
 import Rating from './rating/Rating';
 
-const Card = () => {
+const Card = (props) => {
     return (
         <article className="card">
             <div className='card__inner'>
                 <div className="card__img">
-                    <img src={image} alt='Телескоп Sky-Watcher BK 709EQ2'/>
+                    <img src={props.img} alt={props.title} />
                 </div>
                 <a className='card__link'>
-                    <h3 className='card__title'>Телескоп Sky-Watcher BK 709EQ2</h3>
+                    <h3 className='card__title'>{props.title}</h3>
                 </a>
                 <div className='card__info'>
                     <Rating />
-                    <p className='card__reserve'>В наличии</p>
+                    <p className='card__reserve'>{props.reserve}</p>
                 </div>
             </div>
             <div className='card__price'>
-                <div className='card__price-text'>14 490 руб.</div>
+                <div className='card__price-text'>{props.price}</div>
                 <Btn />
             </div>
         </article>
