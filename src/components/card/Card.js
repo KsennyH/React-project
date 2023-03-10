@@ -5,7 +5,7 @@ import Rating from './rating/Rating';
 
 const Card = (props) => {
     return (
-        <article className="card">
+        <article className="card" id={props.id}>
             <div className='card__inner'>
                 <div className="card__img">
                     <img src={props.img} alt={props.title} />

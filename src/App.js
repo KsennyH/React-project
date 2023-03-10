@@ -3,11 +3,13 @@ import './css/reset.css';
 import './css/base.css';
 import './css/main.css';
 import { cards } from './data/cards';
+import Header from './components/header/Header';
 
 
 function App() {
   return (
     <div className="App">
+      <Header />
       <div className='products'>
         <div className='products__title'>
           <h2 className='title'>Телескопы</h2>
@@ -16,7 +18,7 @@ function App() {
           {cards.map((el) => {
             return (
               <li className='products__item'>
-                <Card title={el.title} img={el.img} reserve={el.reserve} price={el.price} feedback={el.feedback} />
+                <Card id={el.id} title={el.title} img={el.img} reserve={el.reserve} price={el.price} feedback={el.feedback} />
               </li>
             )
           })}
