@@ -1,0 +1,23 @@
+.header-auth__login {
+    position: relative;
+    padding-right: 0.9375rem;
+    margin-right: 6px;       
+}
+
+.header-auth__login::after {
+    content: "/";
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header-auth__login,
+.header-auth__registration {
+    transition: color .5s ease; 
+    cursor: pointer;
+}
+
+.header-auth__login:hover,
+.header-auth__registration:hover {
+    color: var(--blue);
+}
