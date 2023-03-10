@@ -1,0 +1,24 @@
+.header-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-contacts__tel {
+    margin-bottom: 0.3125rem;
+    transition: color .5s ease;
+}
+
+.header-contacts__tel:hover {
+    color: var(--blue);
+}
+
+.header-contacts__call {
+    color: var(--blue);
+    text-decoration: underline;
+    margin-bottom: 0.5rem;
+}
+
+.header-contacts__call:hover {
+    text-decoration: none;
+}
