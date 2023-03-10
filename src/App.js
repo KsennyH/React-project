@@ -4,12 +4,14 @@ import './css/base.css';
 import './css/main.css';
 import { cards } from './data/cards';
 import Header from './components/header/Header';
+import Nav from './components/Nav/Nav';
 
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Nav />
       <div className='products'>
         <div className='products__title'>
           <h2 className='title'>Телескопы</h2>
