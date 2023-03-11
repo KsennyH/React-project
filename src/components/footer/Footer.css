@@ -1,0 +1,62 @@
+.footer {
+    font-family: 'Kurale', serif;
+    font-size: 1.125rem;
+    background-color: var(--light-blue);
+    padding: 1.5625rem 0;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+    padding-bottom: 50px;
+}
+
+.footer-info__title {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.footer-info__item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-info__address {
+    font-style: normal;
+}
+
+.footer-info__address > * + * {
+    margin-top: 0.625rem;
+}
+
+.footer-info__link,
+.footer-info__phone,
+.footer-info__mail {
+    display: block;
+    cursor: pointer;
+    transition: color .5s ease;
+}
+
+.footer-info__link:hover,
+.footer-info__phone:hover,
+.footer-info__mail:hover {
+    color: var(--blue);
+}
+
+.footer__copy {
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer__copy::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 1px;
+    background-color: var(--blue);
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+}

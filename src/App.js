@@ -5,6 +5,7 @@ import './css/main.css';
 import { cards } from './data/cards';
 import Header from './components/header/Header';
 import Nav from './components/Nav/Nav';
+import Footer from './components/footer/Footer';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           })}
         </ul>
       </div>
+      <Footer />
     </div>
   );
 }
