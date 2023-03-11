@@ -7,12 +7,14 @@ import Header from './components/header/Header';
 import Nav from './components/Nav/Nav';
 import Footer from './components/footer/Footer';
 import Catalog from './pages/catalog/Catalog';
+import Main from './pages/main/Main';
 
 
 function App() {
   return (
     <div className="App">
-      <Catalog />
+      <Main />
+      {/*<Catalog />*/}
     </div>
   );
 }
