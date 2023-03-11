@@ -1,3 +1,4 @@
+import Nav from '../Nav/Nav';
 import HeaderAuth from './header-auth/HeaderAuth';
 import HeaderContacts from './header-contacts/HeaderContacts';
 import './Header.css';
@@ -12,6 +13,7 @@ const Header = () => {
                     <HeaderContacts />
                     <HeaderAuth />
                 </div>
+                <Nav />
             </div>
         </header>
     )
