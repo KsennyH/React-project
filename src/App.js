@@ -8,13 +8,18 @@ import Nav from './components/Nav/Nav';
 import Footer from './components/footer/Footer';
 import Catalog from './pages/catalog/Catalog';
 import Main from './pages/main/Main';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <div className="App">
-      <Main />
-      {/*<Catalog />*/}
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Main />} />
+          <Route path='/catalog' element={<Catalog />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
