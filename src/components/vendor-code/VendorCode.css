@@ -1,0 +1,12 @@
+.vendor-code {
+    font-size: 0.875rem;
+}
+
+.vendor-code__number {
+    color: var(--gray);
+    margin-bottom: 0.625rem;
+}
+
+.vendor-code__reserve {
+    color: var(--green);
+}
