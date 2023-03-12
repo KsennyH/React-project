@@ -1,5 +1,4 @@
 import Header from '../../components/header/Header';
-import Nav from '../../components/Nav/Nav';
 import Footer from '../../components/footer/Footer';
 import './Catalog.css';
 import Card from '../../components/card/Card';

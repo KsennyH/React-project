@@ -19,7 +19,7 @@ const ProductInfo = () => {
                     <button className="product-info__btn">В избранное</button>
                     <button className="product-info__btn">К сравнению</button>
                 </div>
-                <Btn />
+                <Btn text='Купить в 1 клик' />
             </div>
         </div>
     )

@@ -1,3 +1,7 @@
+.product-info {
+    padding: 0.625rem;
+}
+
 .product-info__inner {
     display: flex;
     align-items: center;

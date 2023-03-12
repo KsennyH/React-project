@@ -14,6 +14,7 @@ import card12 from './../../src/img/12.jpg';
 const cards = [
     {
         id: 1,
+        code: 56412,
         img: card1,
         title: 'Телескоп Sky-Watcher BK 709EQ2',
         feedback: "(3)",
@@ -22,6 +23,7 @@ const cards = [
     },
     {
         id: 2,
+        code: 58412,
         img: card2,
         title: 'Телескоп Levenhuk Skyline 50x600 AZ',
         feedback: "(0)",
@@ -30,6 +32,7 @@ const cards = [
     },
     {
         id: 3,
+        code: 56416,
         img: card3,
         title: 'Телескоп Celestron PowerSeeker 50 TT Case',
         feedback: "(1)",
@@ -38,6 +41,7 @@ const cards = [
     },
     {
         id: 4,
+        code: 54012,
         img: card4,
         title: 'Телескоп Ske-Watcher BK MAK 102EQ2',
         feedback: "(13)",
@@ -46,6 +50,7 @@ const cards = [
     },
     {
         id: 5,
+        code: 56312,
         img: card5,
         title: 'Телескоп Levenhuk Skyline 80 PLUS',
         feedback: "(0)",
@@ -54,6 +59,7 @@ const cards = [
     },
     {
         id: 6,
+        code: 56427,
         img: card6,
         title: 'Телескоп Levenhul LabZZ D1',
         feedback: "(5)",
@@ -62,6 +68,7 @@ const cards = [
     },
     {
         id: 7,
+        code: 56795,
         img: card7,
         title: 'Телескоп Celestron AstroMaster LT 70 AZ',
         feedback: "(0)",
@@ -70,6 +77,7 @@ const cards = [
     },
     {
         id: 8,
+        code: 56074,
         img: card8,
         title: 'Телескоп Celestron AstroMaster 90 AZ',
         feedback: "(2)",
@@ -78,6 +86,7 @@ const cards = [
     },
     {
         id: 9,
+        code: 56123,
         img: card9,
         title: 'Телескоп Levenhuk LabZZ T3',
         feedback: "(0)",
@@ -86,6 +95,7 @@ const cards = [
     },
     {
         id: 10,
+        code: 56092,
         img: card10,
         title: 'Телескоп Levenhuk Skyline Travel Sun 50',
         feedback: "(0)",
@@ -94,6 +104,7 @@ const cards = [
     },
     {
         id: 11,
+        code: 56457,
         img: card11,
         title: 'Телескоп Bresser Messier AR-70/700AZ',
         feedback: "(0)",
@@ -102,6 +113,7 @@ const cards = [
     },
     {
         id: 12,
+        code: 89412,
         img: card12,
         title: 'Настольный телескоп Sky-Watcher Dob 130/650 Heritage Retractable',
         feedback: "(0)",
