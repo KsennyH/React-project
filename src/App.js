@@ -9,6 +9,7 @@ import Footer from './components/footer/Footer';
 import Catalog from './pages/catalog/Catalog';
 import Main from './pages/main/Main';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Payment from './pages/payment/Payment';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/catalog' element={<Catalog />} />
+          <Route path='/payment' element={<Payment />} />
         </Routes>
       </BrowserRouter>
     </div>

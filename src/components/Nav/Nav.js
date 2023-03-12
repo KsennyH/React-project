@@ -13,7 +13,7 @@ const Nav = () => {
                         <NavLink className='nav__link' to='/catalog'>Каталог</NavLink>
                     </li>
                     <li className='nav__item'>
-                        <a className='nav__link' href='#'>Доставка и оплата</a>
+                        <NavLink className='nav__link' to='/payment'>Доставка и оплата</NavLink>
                     </li>
                     <li className='nav__item'>
                         <a className='nav__link' href='#'>Гарантия и сервис</a>

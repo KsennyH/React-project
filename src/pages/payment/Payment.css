@@ -1,0 +1,60 @@
+.payment {
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+
+.payment__title {
+    text-align: center;
+    margin-bottom: 0.9375rem;
+}
+
+.payment__info {
+    margin-bottom: 3.125rem;
+}
+
+.payment__info p:not(:last-child) {
+    margin-bottom: 0.625rem;
+}
+
+.payment__pay {
+    margin-bottom: 1.875rem;
+}
+
+.payment__subtitle {
+    font-weight: 700;
+    margin-bottom: 0.625rem;
+}
+
+.payment__list {
+    padding-left: 1.875rem;
+    margin-bottom: 0.625rem;
+}
+
+.payment__item {
+    position: relative;
+    padding-left: 1.25rem;
+}
+
+.payment__item:not(:last-child) {
+    margin-bottom: 0.625rem;
+}
+
+.payment__item::before {
+    content: '';
+    position: absolute;
+    background-image: url(./check.svg);
+    background-repeat: no-repeat;
+    width: 0.4375rem;
+    height: 0.4375rem;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.payment__shedule {
+    margin-bottom: 0.625rem;
+}
+
+.payment__address {
+    font-weight: 500;
+}
