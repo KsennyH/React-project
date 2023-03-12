@@ -10,15 +10,19 @@ import Catalog from './pages/catalog/Catalog';
 import Main from './pages/main/Main';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Payment from './pages/payment/Payment';
+import ScrollToTop from './utils/scrollToTop';
+import Product from './pages/product/Product';
 
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path='/' element={<Main />} />
           <Route path='/catalog' element={<Catalog />} />
+          <Route path='/catalog/' element={<Product />} />
           <Route path='/payment' element={<Payment />} />
         </Routes>
       </BrowserRouter>

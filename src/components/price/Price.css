@@ -1,0 +1,9 @@
+.price {
+    border: 0.0625rem solid var(--blue);
+    background-color: var(--light-blue);
+    padding: 0.9375rem;
+}
+
+.price__value {
+    margin-bottom: 0.9375rem;
+}
