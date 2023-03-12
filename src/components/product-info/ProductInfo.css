@@ -1,0 +1,36 @@
+.product-info__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9375rem 0;
+}
+
+.product-info__price {
+    margin-bottom: 0.9375rem;
+}
+
+.product-info__controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-info__btns {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info__btn {
+    color: var(--gray);
+    font-size: 0.875rem;
+    text-decoration: underline;
+    transition: color 0.5s ease;
+}
+
+.product-info__btn:first-child {
+    margin-bottom: 0.625rem;
+}
+
+.product-info__btn:hover {
+    color: var(--blue);
+}
