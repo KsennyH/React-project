@@ -1,5 +1,5 @@
+import { NavLink } from 'react-router-dom';
 import './Card.css';
-import image from './../../img/1.jpg';
 import Btn from './button/btn';
 import Rating from './rating/Rating';
 
@@ -10,9 +10,9 @@ const Card = (props) => {
                 <div className="card__img">
                     <img src={props.img} alt={props.title} />
                 </div>
-                <a className='card__link'>
+                <NavLink to={`/product/${props.id}`} className='card__link'>
                     <h3 className='card__title'>{props.title}</h3>
-                </a>
+                </NavLink>
                 <div className='card__info'>
                     <Rating feedback={props.feedback} />
                     <p className='card__reserve'>{props.reserve}</p>

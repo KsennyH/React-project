@@ -13,7 +13,7 @@ import card12 from './../../src/img/12.jpg';
 
 const cards = [
     {
-        id: 1,
+        id: 0,
         code: 56412,
         img: card1,
         title: 'Телескоп Sky-Watcher BK 709EQ2',
@@ -22,7 +22,7 @@ const cards = [
         price: '14 490 руб.'
     },
     {
-        id: 2,
+        id: 1,
         code: 58412,
         img: card2,
         title: 'Телескоп Levenhuk Skyline 50x600 AZ',
@@ -31,7 +31,7 @@ const cards = [
         price: '4 990 руб.'
     },
     {
-        id: 3,
+        id: 2,
         code: 56416,
         img: card3,
         title: 'Телескоп Celestron PowerSeeker 50 TT Case',
@@ -40,7 +40,7 @@ const cards = [
         price: '3 990 руб.'
     },
     {
-        id: 4,
+        id: 3,
         code: 54012,
         img: card4,
         title: 'Телескоп Ske-Watcher BK MAK 102EQ2',
@@ -49,7 +49,7 @@ const cards = [
         price: '33 990 руб.'
     },
     {
-        id: 5,
+        id: 4,
         code: 56312,
         img: card5,
         title: 'Телескоп Levenhuk Skyline 80 PLUS',
@@ -58,7 +58,7 @@ const cards = [
         price: '17 490 руб.'
     },
     {
-        id: 6,
+        id: 5,
         code: 56427,
         img: card6,
         title: 'Телескоп Levenhul LabZZ D1',
@@ -67,7 +67,7 @@ const cards = [
         price: '4 990 руб.'
     },
     {
-        id: 7,
+        id: 6,
         code: 56795,
         img: card7,
         title: 'Телескоп Celestron AstroMaster LT 70 AZ',
@@ -76,7 +76,7 @@ const cards = [
         price: '8 990 руб.'
     },
     {
-        id: 8,
+        id: 7,
         code: 56074,
         img: card8,
         title: 'Телескоп Celestron AstroMaster 90 AZ',
@@ -85,7 +85,7 @@ const cards = [
         price: '16 490 руб.'
     },
     {
-        id: 9,
+        id: 8,
         code: 56123,
         img: card9,
         title: 'Телескоп Levenhuk LabZZ T3',
@@ -94,7 +94,7 @@ const cards = [
         price: '5 990 руб.'
     },
     {
-        id: 10,
+        id: 9,
         code: 56092,
         img: card10,
         title: 'Телескоп Levenhuk Skyline Travel Sun 50',
@@ -103,7 +103,7 @@ const cards = [
         price: '6 490 руб.'
     },
     {
-        id: 11,
+        id: 10,
         code: 56457,
         img: card11,
         title: 'Телескоп Bresser Messier AR-70/700AZ',
@@ -112,7 +112,7 @@ const cards = [
         price: '14 900 руб.'
     },
     {
-        id: 12,
+        id: 11,
         code: 89412,
         img: card12,
         title: 'Настольный телескоп Sky-Watcher Dob 130/650 Heritage Retractable',

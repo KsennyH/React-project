@@ -1,10 +1,10 @@
 import Btn from '../card/button/btn';
 import './Price.css';
 
-const Price = () => {
+const Price = (props) => {
     return (
         <div className="price">
-            <div className="price__value">14 490 руб.</div>
+            <div className="price__value">{props.info.price}</div>
             <Btn text='Купить' />
         </div>
     )

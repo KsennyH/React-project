@@ -4,15 +4,15 @@ import Price from '../price/Price';
 import VendorCode from '../vendor-code/VendorCode';
 import './ProductInfo.css';
 
-const ProductInfo = () => {
+const ProductInfo = (props) => {
     return (
         <div className="product-info">
             <div className="product-info__inner">
-                <VendorCode />
-                <Rating />
+                <VendorCode info={props.info} />
+                <Rating feedback={props.info.feedback} />
             </div>
             <div className="product-info__price">
-                <Price />
+                <Price info={props.info} />
             </div>
             <div className="product-info__controls">
                 <div className="product-info__btns">

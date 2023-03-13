@@ -1,10 +1,9 @@
 import './ProductImg.css';
-import img from './../../img/1.jpg';
 
-const ProductImg = () => {
+const ProductImg = (props) => {
     return (
         <div className="product-img">
-            <img src={img} alt='Телескоп' />
+            <img src={props.info.img} alt={props.info.title} />
         </div>
     )
 }
