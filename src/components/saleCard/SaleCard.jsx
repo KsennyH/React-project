@@ -1,12 +1,8 @@
-import { NavLink } from 'react-router-dom';
-import './Card.css';
-import Btn from './button/btn';
-import Rating from './rating/Rating';
+import './SaleCard.css';
 
-const Card = (props) => {
-
+const SaleCard = () => {
     return (
-        <article className="card" id={props.id}>
+        <article className="card card--sale" id={props.id}>
             <div className='card__inner'>
                 <div className="card__img">
                     <img src={props.img} alt={props.title} />
@@ -20,11 +16,14 @@ const Card = (props) => {
                 </div>
             </div>
             <div className='card__price'>
-                <div className='card__price-text'>{props.price}</div>
-                <Btn text='В корзину' />
+                <div className="card__false-price">{props.falsePrice}</div>
+                <div className="card__price-wrapper">
+                    <div className='card__price-text'>{props.price}</div>
+                    <Btn text='В корзину' />
+                </div>
             </div>
         </article>
     )
 }
 
-export default Card;
+export default SaleCard;
