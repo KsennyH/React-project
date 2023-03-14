@@ -12,6 +12,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Payment from './pages/payment/Payment';
 import ScrollToTop from './utils/scrollToTop';
 import Product from './pages/product/Product';
+import Sale from './pages/sale/Sale';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path='/catalog' element={<Catalog />} />
           <Route path='/product/:id' element={<Product />} />
           <Route path='/payment' element={<Payment />} />
+          <Route path='/sale' element={<Sale />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -19,7 +19,7 @@ const Nav = () => {
                         <a className='nav__link' href='#'>Гарантия и сервис</a>
                     </li>
                     <li className='nav__item'>
-                        <a className='nav__link' href='#'>Акции и скидки</a>
+                        <NavLink className='nav__link' to='/sale'>Акции и скидки</NavLink>
                     </li>
                 </ul>
             </div>

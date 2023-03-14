@@ -1,6 +1,9 @@
 import './SaleCard.css';
+import { NavLink } from 'react-router-dom';
+import Btn from '../card/button/btn';
+import Rating from '../card/rating/Rating';
 
-const SaleCard = () => {
+const SaleCard = (props) => {
     return (
         <article className="card card--sale" id={props.id}>
             <div className='card__inner'>
