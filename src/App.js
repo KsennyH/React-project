@@ -13,6 +13,7 @@ import Payment from './pages/payment/Payment';
 import ScrollToTop from './utils/scrollToTop';
 import Product from './pages/product/Product';
 import Sale from './pages/sale/Sale';
+import SaleLineCard from './pages/sale-line-card/SaleLineCard';
 
 
 function App() {
@@ -25,8 +26,8 @@ function App() {
           <Route path='/catalog' element={<Catalog />} />
           <Route path='/product/:id' element={<Product />} />
           <Route path='/payment' element={<Payment />} />
-          <Route path='/sale' element={<Sale />} />
-          <Route path='/sale/:id' element={<Product />} />
+          {/*<Route path='/sale' element={<Sale />} />*/}
+          <Route path='/sale2' element={<SaleLineCard />} />
         </Routes>
       </BrowserRouter>
     </div>

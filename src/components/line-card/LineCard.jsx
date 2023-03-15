@@ -1,4 +1,4 @@
-import './lineCard';
+import './LineCard';
 import { NavLink } from 'react-router-dom';
 import Btn from '../card/button/btn';
 import Rating from '../card/rating/Rating';
