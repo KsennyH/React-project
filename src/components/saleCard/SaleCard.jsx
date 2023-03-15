@@ -10,7 +10,7 @@ const SaleCard = (props) => {
                 <div className="card__img">
                     <img src={props.img} alt={props.title} />
                 </div>
-                <NavLink to={`/product/${props.id}`} className='card__link'>
+                <NavLink to={`/sale/${props.id}`} className='card__link'>
                     <h3 className='card__title'>{props.title}</h3>
                 </NavLink>
                 <div className='card__info'>
@@ -18,7 +18,7 @@ const SaleCard = (props) => {
                     <p className='card__reserve'>{props.reserve}</p>
                 </div>
             </div>
-            <div className='card__price'>
+            <div className='card__price card__price--sale'>
                 <div className="card__false-price">{props.falsePrice}</div>
                 <div className="card__price-wrapper">
                     <div className='card__price-text'>{props.price}</div>
